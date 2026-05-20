@@ -1,6 +1,6 @@
 # global-resource-sentinel-agent
 A multi-agent system designed for global world-class new resource discovery, development status tracking, and supply chain risk evaluation based on LangGraph.
-
+```
 import os
 from typing import Dict, TypedDict
 from langgraph.graph import StateGraph, END
@@ -51,3 +51,4 @@ workflow.add_edge("Reporter", END)
 
 app = workflow.compile()
 print("世界新资源开发感知 Agent 编译成功，处于待命状态。")
+```
